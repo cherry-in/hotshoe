@@ -1,0 +1,60 @@
+.border-y {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+.app-title {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.sticky {
+    position: sticky;
+    z-index: 10;
+    background: white;
+}
+
+.img-responsive {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    padding: 0;
+    background: no-repeat center/contain;
+}
+
+.new-star {
+    display: inline-block;
+    direction: rtl;
+ 
+  .selected, .selected ~ label {
+    color: #fff58c;
+  }
+}
+.new-star label {
+    color: #f0f0f0;
+    cursor: pointer;
+}
+.new-star label:hover,
+.new-star label:hover ~ label {
+    color: gold;
+}
+
+textarea {
+    overflow: auto; 
+    overflow-wrap: break-word; 
+    resize: none; 
+    height: 100px;
+    scrollbar-width: none;
+    line-height: 1.5em;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.app-desc {
+    background: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 15px;
+}
