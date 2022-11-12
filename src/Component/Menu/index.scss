@@ -1,0 +1,37 @@
+.navbar {
+    border-bottom: 3px solid;
+    background-color: white;
+}
+
+.search {
+    width: 460px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 60px;
+
+}
+
+.bg-none {
+    background: none;
+    border: none;
+}
+
+.about {
+    border-right: 2px solid;
+    font-weight: 900;
+    margin: 0.5rem;
+    padding: 0;
+}
+
+.navbar-brand {
+    height: 50px;
+}
+
+img {
+    height: 100%;
+}
+
+.btn-search {
+    border: none;
+    height: fit-content;
+}
